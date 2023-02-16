@@ -1,0 +1,112 @@
+h2{
+    color: white; 
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid black;
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+}
+
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.name, .pno, address{
+    width: 87.5%;
+    height: 50%;
+    padding: 8px 0 8px 40px;
+}
+
+.dob{
+    width: 87.5%;
+    height: 50%;
+    padding: 8px 0 8px 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.city{
+    width:40%
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.container2{
+    background: white;
+    width: 450px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px black;
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+}
+
+textarea{
+    resize:none;
+}
+
+.table1{
+    border-collapse:separate;
+    border-spacing:15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table2{
+    border-spacing: 15px 15px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.submit{
+    text-align: center;
+}
+
+.reset{
+    text-align: center;
+}
+
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: rgba(255, 255, 128, .5);
+}
+.header-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.fixed-header{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+    left: 0;
+    right: 0;
+}
