@@ -1,0 +1,44 @@
+.a{
+    visibility: visible;
+}
+
+.b, .d{
+    visibility: visible;
+    display: block;
+}
+
+.c{
+    visibility: hidden;
+    display: block;
+}
+
+.relativea {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    left: 150px;
+} 
+
+.absolutea {
+    position: absolute;
+    top: 16px;
+    right: 150px;
+    width: 400px;
+    height: 100px;
+    font-weight: bold;
+}
+
+.relativeb {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    right: 40px;
+} 
+
+.absoluteb {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+}
